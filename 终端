@@ -7,8 +7,11 @@ git add .
 # 提交更改
 git commit -m "初始提交"
 
+# 重命名本地分支为 main（如果已经存在master分支）
+git branch -M main
+
 # 添加远程仓库（替换成你的仓库URL）
 git remote add origin https://github.com/2159620595/-.git
 
-# 推送到GitHub
-git push -u origin master 
+# 推送到GitHub的main分支
+git push -u origin main 
